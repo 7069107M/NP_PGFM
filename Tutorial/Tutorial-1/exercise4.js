@@ -7,7 +7,7 @@ let Multiplication = num1 * num2;
 let Division = num1 / num2;
 
 // print result
-console.log("addition:", Addition);
-console.log("subtraction:", Subtraction);
+console.log("Addition:", Addition);
+console.log("Subtraction:", Subtraction);
 console.log("Multiplication:", Multiplication);
 console.log("Division:", Division);

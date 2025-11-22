@@ -1,0 +1,189 @@
+/* Icons */
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.material-symbols-filled {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+/* Basic reset  */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid oklch(0.922 0 0);
+    border-collapse: collapse;
+}
+
+td,
+th {
+    text-align: left;
+    border: none;
+    border-collapse: collapse;
+    padding: 10px 0;
+}
+
+th {
+    color: oklch(0.556 0 0)
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+
+/* header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+}
+
+.services {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.services>li {
+    padding: 40px 30px;
+    font-weight: 600;
+}
+
+.header-menu {
+    position: relative;
+}
+
+.menu-dropdown {
+    position: absolute;
+    top: 98px;
+    display: none;
+    list-style: none;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.menu-dropdown>li {
+    padding: 10px 20px;
+}
+
+.header-menu:hover {
+    .menu-dropdown {
+        display: block;
+    }
+}
+
+
+/* Arrival Page Styles */
+.main-heading {
+    text-align: center;
+}
+
+.content {
+    background-color: #f6f3f4;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 59px);
+}
+
+#busstop {
+    display: flex;
+    justify-content: center;
+}
+
+.busstop_card,
+.busstop_form_card {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+    border: 1px solid #e5e5e5;
+    border-radius: 14px;
+    background-color: white;
+    padding: 24px;
+}
+
+.busstop_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.busstop_bus_details {}
+
+.busstop_info>.address {
+    color: #4a5565;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.busstop_info>.fav {}
+
+.busstop_bus_details>table {
+    font-size: 14px;
+}
+
+.busstopform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.busstop_form_card input {
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    outline: none;
+}
+
+.busstop_form_card button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.link {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
