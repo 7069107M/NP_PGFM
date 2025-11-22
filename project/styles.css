@@ -119,6 +119,7 @@ a {
     align-items: center;
     gap: 30px;
     min-height: calc(100vh - 59px);
+    
 }
 
 #busstop {
@@ -142,7 +143,7 @@ a {
     margin-bottom: 16px;
 }
 
-.busstop_bus_details {}
+
 
 .busstop_info>.address {
     color: #4a5565;
@@ -150,7 +151,6 @@ a {
     font-weight: 600;
 }
 
-.busstop_info>.fav {}
 
 .busstop_bus_details>table {
     font-size: 14px;
@@ -167,6 +167,7 @@ a {
     border: 1px solid gray;
     border-radius: 4px;
     outline: none;
+    text-align: center;
 }
 
 .busstop_form_card button {
