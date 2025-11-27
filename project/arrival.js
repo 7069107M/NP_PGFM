@@ -27,7 +27,7 @@ loadBusStatus();
 function loadBusStatus() {
     loading = loading + 1;
     setLoading();
-    fetch(`http://localhost:3000/ltaodataservice/v3/BusArrival?BusStopCode=${busstopcode}`)
+    fetch(`https://np-pgfm.vercel.app/ltaodataservice/v3/BusArrival?BusStopCode=${busstopcode}`)
         .then((response) => response.json())
         .then((result) => {
             if (!busstopcode) {
