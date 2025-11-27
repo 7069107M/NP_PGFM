@@ -188,3 +188,25 @@ a {
     font-weight: 600;
     cursor: pointer;
 }
+
+.refresh_btn {
+    padding: 10px 20px;
+    background: white;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    
+    
+}
+
+.action_btn_section {
+    padding-top: 10px;
+   
+}
+
+.action_btn_section {
+    display: flex;
+    justify-content: center;
+}
